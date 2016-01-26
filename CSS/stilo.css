@@ -1,15 +1,19 @@
 .header_top {
   background-color: #2d4f57;
+  display: block;    
   left: 0px;
   top: 0px;
   width: 100%;
-  height: 101px;
+  height: 70px;
   z-index: 64;
 }
 .SEARCH_FUNDO {
-  background-color: #91e0ec;
-    width: 100%;
-  height: 501px;
+  position: relative;
+    border-bottom-style: groove;
+  background-image: url(FUNDO.png);    
+  background-color: #66cccc;  
+  width: 100%;
+  height: 400px;
   z-index: 22;
 }
 
@@ -20,83 +24,70 @@
 	}
 
 .TV {
-  background-image: url("TV.png");
-  position: absolute;
-  left: 75px;
-  top: 154px;
-  width: 76px;
-  height: 51px;
-  z-index: 23;
+background-image: url("Imagens/FUNDO.png");
+    display: block;
+    position: relative;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 
+ 
+}
+
+.SEARCH {  
+    background-color: #ffffff;
+    position: fixed;
+    left: 850px;
+    top: 253px;    
+    margin: 0 auto;
+    display: block;
+    width: 20%;
+    height: 45px;
+    text-align: center;
+    border: none;   
+    z-index: 27;
 }
 
 
-.SOM {
-  background-image: url("SOM.png");
-  position: absolute;
-  left: 102px;
-  top: 331px;
-  width: 192px;
-  height: 67px;
-  z-index: 24;
+
+
+
+
+
+.search {    
+    position: relative;
+    width: 30%;
+    margin: 0 auto;
+    height: 80px;
+    top: 40%;
+    transform: translateY(-50%); 
 }
 
-.SIFRAO {
-  background-image: url("SIFRAO.png");
-  position: absolute;
-  left: 1083px;
-  top: 272px;
-  width: 89px;
-  height: 153px;
-  z-index: 25;
+.search_input {
+    margin: 0 auto;    
+    height: 45px;
+    width: 500px;
+    position: absolute;
+    left: 10px;
+    border: none;
+    
 }
 
-.SOFA {
-  background-image: url("SOFA.png");
-  position: absolute;
-  left: 357px;
-  top: 119px;
-  width: 266px;
-  height: 120px;
-  z-index: 28;
+.Parceiros {
+    background-color: #e8e9e9;
+    width: 100%;
+    height: 200px;
+    
+    
 }
 
-.APPLE {
-  background-image: url("APPLE.png");
-  opacity: 0.31;
-  position: absolute;
-  left: 663px;
-  top: 347px;
-  width: 255px;
-  height: 132px;
-  z-index: 29;
-}
-
-.CHUTEIRA {
-  background-image: url("CHUTEIRA.png");
-  position: absolute;
-  left: 869px;
-  top: 204px;
-  width: 76px;
-  height: 69px;
-  z-index: 31;
-}
-
-.CAMISA {
-  background-image: url("CAMISA.png");
-  position: absolute;
-  left: 1114px;
-  top: 116px;
-  width: 115px;
-  height: 109px;
-  z-index: 32;
-}
-
-.BOLA {
-  background-image: url("BOLA.png");
-  position: absolute;
-  left: 482px;
-  top: 318px;
-  width: 42px;
-  height: 40px;
-  z-index: 30;
-}
+#owl-demo .item{
+        background: #42bdc2;
+        padding: 30px 0px;
+        margin: 5px;
+        color: #FFF;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        text-align: center;
+    }
