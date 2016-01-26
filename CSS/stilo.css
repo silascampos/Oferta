@@ -1,0 +1,102 @@
+.header_top {
+  background-color: #2d4f57;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 101px;
+  z-index: 64;
+}
+.SEARCH_FUNDO {
+  background-color: #91e0ec;
+    width: 100%;
+  height: 501px;
+  z-index: 22;
+}
+
+.center_img{
+	align-content:center;
+	margin: 0 auto;
+	
+	}
+
+.TV {
+  background-image: url("TV.png");
+  position: absolute;
+  left: 75px;
+  top: 154px;
+  width: 76px;
+  height: 51px;
+  z-index: 23;
+}
+
+
+.SOM {
+  background-image: url("SOM.png");
+  position: absolute;
+  left: 102px;
+  top: 331px;
+  width: 192px;
+  height: 67px;
+  z-index: 24;
+}
+
+.SIFRAO {
+  background-image: url("SIFRAO.png");
+  position: absolute;
+  left: 1083px;
+  top: 272px;
+  width: 89px;
+  height: 153px;
+  z-index: 25;
+}
+
+.SOFA {
+  background-image: url("SOFA.png");
+  position: absolute;
+  left: 357px;
+  top: 119px;
+  width: 266px;
+  height: 120px;
+  z-index: 28;
+}
+
+.APPLE {
+  background-image: url("APPLE.png");
+  opacity: 0.31;
+  position: absolute;
+  left: 663px;
+  top: 347px;
+  width: 255px;
+  height: 132px;
+  z-index: 29;
+}
+
+.CHUTEIRA {
+  background-image: url("CHUTEIRA.png");
+  position: absolute;
+  left: 869px;
+  top: 204px;
+  width: 76px;
+  height: 69px;
+  z-index: 31;
+}
+
+.CAMISA {
+  background-image: url("CAMISA.png");
+  position: absolute;
+  left: 1114px;
+  top: 116px;
+  width: 115px;
+  height: 109px;
+  z-index: 32;
+}
+
+.BOLA {
+  background-image: url("BOLA.png");
+  position: absolute;
+  left: 482px;
+  top: 318px;
+  width: 42px;
+  height: 40px;
+  z-index: 30;
+}
