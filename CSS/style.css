@@ -3,7 +3,7 @@
 .mi-slider {
 	position: relative;
 	margin-top: 30px;
-	height: 230px;
+	height: 250px;
 }
 
 .mi-slider ul {
@@ -11,7 +11,7 @@
 	position: absolute;
 	width: 100%;
 	left: 0;
-	bottom: 140px;
+	bottom: 130px;
 	overflow: hidden;
 	text-align: center;
 	pointer-events: none;
@@ -78,7 +78,7 @@
 	position: relative;
 	top: 120px;
 	text-align: center;
-	max-width: 900px;
+	max-width: 1000px;
 	margin: 0 auto;
 	border-top: 5px solid #333;
 }

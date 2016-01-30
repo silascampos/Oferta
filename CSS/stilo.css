@@ -49,11 +49,6 @@ background-image: url("Imagens/FUNDO.png");
 }
 
 
-
-
-
-
-
 .search {    
     position: relative;
     width: 30%;
@@ -76,7 +71,7 @@ background-image: url("Imagens/FUNDO.png");
 .Parceiros {
     background-color: #e8e9e9;
     width: 100%;
-    height: 200px;
+    height: 250px;
     
     
 }
@@ -86,3 +81,24 @@ background-image: url("Imagens/FUNDO.png");
 .carousel-inner .prev		 { left: -25%; }
 .carousel-control 			 { width:  4%; }
 .carousel-control.left,.carousel-control.right {margin-left:15px;background-image:none;}
+.text-parceitros {
+  font-size: 24px;
+  font-family: "Segoe UI";
+  color: rgb(54, 54, 54);
+  text-align: left;
+  position: absolute;
+  left: 55px;
+  top: 493.598px;
+  z-index: 15;
+}
+
+.text-parceiros2 {
+  font-size: 24px;
+  font-family: "Segoe UI";
+  color: rgb(54, 54, 54);
+  text-align: left;
+  position: absolute;
+  left: 180px;
+  top: 530.598px;
+  z-index: 15;
+}
