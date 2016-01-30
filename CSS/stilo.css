@@ -102,3 +102,23 @@ background-image: url("Imagens/FUNDO.png");
   top: 530.598px;
   z-index: 15;
 }
+
+.Forma_2 {
+  background-color: rgb(240, 154, 96);
+  position: absolute;
+  left: 110px;
+  top: 788px;
+  width: 541px;
+  height: 63px;
+  z-index: 40;
+}
+
+
+.text-banner {
+  font-size: 24px;
+  font-family: "Segoe UI";
+  color: rgb(54, 54, 54);
+  text-align: left;
+   z-index: 41;
+
+}
